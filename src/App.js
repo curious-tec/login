@@ -76,7 +76,7 @@ function App() {
       
     </div>
     <div className="signup">
-      <a href="http:/signup"><p>Don't have account?Sign up</p></a>
+      <p>Don't have an account?<a href="http:/signup">Sign up</a></p>
      </div>
     </div>
    

@@ -93,12 +93,21 @@ form #psd{
  border-bottom: 2px solid black;
  width: 300px;
  font-family: monospace;
+ overflow: hidden;
+ z-index: 1;
+ text-overflow: ellipsis;
+ 
 
 }
 .s{
    position: relative;
-   display: inline;
-   left: -20px;
+   display: inline-block;
+   left: -25px;
+   top: 4px;
+   z-index: 5;
+   padding-left: 9px;
+   
+
 }
 form #rmbr {
 position: relative;
@@ -119,7 +128,7 @@ top: 17px;
    justify-content: space-around;
    letter-spacing: -1px;
    position: relative;
-   left: -9px;
+   left: -15px;
    top: -10px;
    word-spacing: -4px;
    
@@ -160,6 +169,7 @@ top: 17px;
 .main-login a {
    color: white;
    text-decoration: none;
+   font-size: larger
 }
 
 .google{
@@ -171,7 +181,7 @@ top: 17px;
    border-radius: 20px;
    position: relative;
    margin-top: 15px;
-   padding: 5px;
+   padding: 6px;
    
 }
 .google a{
@@ -183,32 +193,32 @@ top: 17px;
    height: 15px;
    position: relative;
    float: left;
-   left: 20px;
+   left: 5px;
 }
 .google p{
    position: relative;
-   left: 15px;
+   left: 11px;
    top:-16px;
    text-decoration: none;
    color: white;
    display: inline;
+   font-size: larger;
 }
-.signup{
+.signup {
    position: relative;
    float: right;
    left: -220px;
    top: -35px;
 }
-.signup a{
+
+.signup p{
    text-decoration: none;
    color: #000;
    font-size: 12px;
    font-family: monospace;
+   word-spacing: -3px;
+   letter-spacing: -1px;
+   position: relative;
+   left: -14px;
 
-}
-@media screen and ( max-width:1000px) {
-   *{
-       width:100%;
-   }
-   
 }

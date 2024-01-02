@@ -76,6 +76,7 @@ form{
    left: 65px;
    font-family: monospace;
    font-size:larger;
+   
  
 }
 form  #eml{
@@ -83,8 +84,11 @@ form  #eml{
  border-bottom: 2px solid black;
  width: 300px;
  font-family: monospace;
+ outline: none;
+ 
 
 }
+
 
 
 
@@ -96,6 +100,7 @@ form #psd{
  overflow: hidden;
  z-index: 1;
  text-overflow: ellipsis;
+ outline: none;
  
 
 }
@@ -106,6 +111,7 @@ form #psd{
    top: 4px;
    z-index: 5;
    padding-left: 9px;
+   font-size: 17px;
    
 
 }
@@ -222,3 +228,79 @@ top: 17px;
    left: -14px;
 
 }
+/*responsiveness*/
+@media only screen and (max-width: 768px) {
+   body{
+      margin: 0;
+      
+   }
+   .App {
+     width: 100%;
+     margin-left:0;
+    
+   
+     
+   }
+ 
+   .App .pic img,
+   .App .log {
+     width: 100%;
+     margin: 0;
+     
+   }
+
+  .wel, .below{
+   position: relative;
+  
+  }
+   
+   
+   .wel h2{
+      margin-right: 165px;
+      
+   }
+   .below p{
+      margin-right:-110px;
+   }
+  .App .log{
+   height: 480px;
+  }
+  .App{
+   margin-top: 0;
+  }
+  .log img{
+   position: relative;
+   
+   right: -90px;
+  }
+
+  .additional-login{
+  left: -105px;
+  top: 35px;
+  }
+
+  .google{
+   padding: 8px;
+  }
+  .google img
+  {
+   left: -5px;
+  }
+  .google p{
+   left: 9px;
+  }
+  .signup{
+   margin-right: 0;
+   left: -90px;
+  }
+
+.reset-password-container{
+   
+ font-size: 14px;
+   
+}
+.reset-password-container .forget-password{
+   top: 7px;
+}
+
+ }

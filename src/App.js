@@ -63,7 +63,7 @@ function App() {
       </div>
 
       <div className="google">
-      <a href="www.google.com">
+      <a href="https://www.google.com/">
       
         <img src="https://static-00.iconduck.com/assets.00/google-icon-2048x2048-czn3g8x8.png" alt="google" />
         <p>Log in with Google</p>

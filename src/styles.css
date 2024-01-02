@@ -232,8 +232,12 @@ top: 17px;
 @media only screen and (max-width: 768px) {
    body{
       margin: 0;
+     height: 100%;
+     position: absolute;
+     
       
    }
+   
    .App {
      width: 100%;
      margin-left:0;
@@ -246,6 +250,7 @@ top: 17px;
    .App .log {
      width: 100%;
      margin: 0;
+     border-radius: 0%;
      
    }
 
@@ -256,11 +261,23 @@ top: 17px;
    
    
    .wel h2{
-      margin-right: 165px;
+     
+     
+      margin-right: 175px;
       
+
+      
+   }
+   .wel{
+      margin: 0;
+      left: -30px;
    }
    .below p{
       margin-right:-110px;
+   }
+   .below {
+      margin: 0;
+      left: -35px;
    }
   .App .log{
    height: 480px;
@@ -271,7 +288,7 @@ top: 17px;
   .log img{
    position: relative;
    
-   right: -90px;
+   right: -70px;
   }
 
   .additional-login{
@@ -302,5 +319,6 @@ top: 17px;
 .reset-password-container .forget-password{
    top: 7px;
 }
+
 
  }

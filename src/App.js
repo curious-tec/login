@@ -13,6 +13,7 @@ function App() {
     <div className="pic">
       <img src="https://images.unsplash.com/photo-1585076641399-5c06d1b3365f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="welcome" />
     </div>
+   
     <div className="log">
       <img src="https://www.shutterstock.com/shutterstock/photos/660000226/display_1500/stock-vector-star-vector-icon-660000226.jpg" alt="star" />
       <div className="wel">
@@ -78,6 +79,7 @@ function App() {
     <div className="signup">
       <p>Don't have an account?<a href="http:/signup">Sign up</a></p>
      </div>
+     
     </div>
    
     
